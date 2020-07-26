@@ -1,0 +1,41 @@
+body {
+    margin: 1%;
+    text-decoration: none;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5%;
+    border-bottom: double;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    /*Max z-index so that it is always on the top*/
+    z-index: 100;
+}
+
+#home {
+    height: 80vh;
+}
+
+#code,
+#intro {
+    margin-top: 10%;
+    border-style: dotted;
+    height: 70%;
+}
+
+#code {
+    background-color: black;
+    text-align: center;
+}
+
+h1,
+.typewrite {
+    margin-top: 25%;
+    color: white;
+}
