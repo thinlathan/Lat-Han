@@ -1,6 +1,7 @@
 body {
-    margin: 1%;
+    margin-top: 1%;
     text-decoration: none;
+    padding: 0 2em;
 }
 
 .topBar {
@@ -25,8 +26,30 @@ body {
 #code,
 #intro {
     margin-top: 10%;
-    border-style: dotted;
     height: 70%;
+}
+
+h3{
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+h6{
+    margin-top: 5%;
+    margin-bottom;
+}
+
+.spaceTop{
+    margin-top: 10%;
+}
+
+#downImage{
+    width:35%;
+    padding-top: 20%;
+    text-align: center;
+    display: block;
+    margin:auto;
 }
 
 #code {
