@@ -16,12 +16,12 @@
 
 <body>
     <div class="topBar">
-        <img class='col-1' src="logo.jpg">
+        <img src="images/logo.jpg" style="width: 100px;">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="navbar-brand nav-link" href="#home">Home</a>
-                    <a class="navbar-brand nav-link" href="#projects">Projects</a>
+                    <a class="navbar-brand nav-link" href="#firstDown">Projects</a>
                     <a class="navbar-brand nav-link" href="#contact">Contact</a>
                 </div>
             </div>
@@ -34,6 +34,7 @@
             <h6 id='homeH6'>I am a Year 3 Computer Engineering undergraduate in Nanyang Tenchnological University (NTU). In my free time, I like to learn more about coding from EDX and Coursera.</h6>
             <h6 id='homeH6'>When I am not coding, I am probably trying out new recipes, reading books or going for gym.</h6>
             <div class="spaceTop row justify-content-around">
+                <button type="button" class="btn btn-outline-dark">Download Resume</button>
                 <button type="button" class="btn btn-outline-dark">See my projects</button>
                 <button type="button" class="btn btn-outline-dark">Contact me</button>
             </div>
@@ -42,20 +43,20 @@
         <div id='code' class="col-5">
             <h1 id='homeH1'>
                 I ...
-                <a href="" class="typewrite" data-period="2000" data-type='[ " Code"," Sleep"," Repeat" ]'>
+                <a href="" class="typewrite" data-period="2000" data-type='[ " Code"," Learn"," Repeat" ]'>
                     <span class="wrap"></span>
                 </a>
             </h1>
         </div>
     </div>
     <div class="d-flex justify-content-center">
-        <a href="#downImage">
-            <img id='downImage' src="down.jpg">
+        <a href="#downImage" id='firstDown'>
+            <img id='downImage' src="images/down.jpg">
         </a>
     </div>
 
-    <div id='projects' style="border-style: dotted;">
-        <h3 style="margin-top:2%;text-align: center;">My Projects</h3>
+    <div id='projects'>
+        <h3 style="margin-top:5%;text-align: center;">My Projects</h3>
         <div style="margin-top:2%;display:flex;flex-wrap:wrap">
             <div class="col-lg-4" style="border-style: dotted;">
                 <h5 style="text-align: center;">Web Development</h5>
@@ -69,12 +70,12 @@
         </div>
         <div class="d-flex justify-content-center">
             <a href="#contact" style="bottom: 0%;">
-                <img id='downImage' src=" down.jpg ">
+                <img id='downImage' src="images/down.jpg ">
             </a>
         </div>
     </div>
 
-    <div id="contact">
+    <div id="contact" style="border-style: solid;">
         <h2 class="col-3 container" style="margin-top:2%;text-align: center;">Get in Touch!</h2>
         <div id="contact-form" class="col-4 container">
             <form action="https://formspree.io/xnqgwkoy" method="POST">
@@ -94,10 +95,14 @@
                 <div style="display: flex; justify-content: center; align-items: center; padding-bottom: 10%;">
                     <button type=" submit ">Send</button>
                 </div>
-
             </form>
         </div>
     </div>
+
+    <footer style="margin-top: 50px; margin-bottom: 50px; text-align: right;">
+        <a href="http://www.linkedin.com/in/lat-han-thin-50b909136"><img src="images/linkedIn.png" style="height: 40px;"></a>
+        <a href="http://www.linkedin.com/in/lat-han-thin-50b909136"><img src="images/github.png" style="height: 40px;"></a>
+    </footer>
 
 </body>
 
