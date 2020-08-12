@@ -30,17 +30,17 @@
 
     <div id='home' class="row justify-content-around">
         <div id='intro' class="col-5">
-            <h3>Hi, I'm Lat Han. Nice to meet you.</h3>
-            <h6>I am a Year 3 Computer Engineering undergraduate in Nanyang Tenchnological University (NTU). In my free time, I like to learn more about coding from EDX and Coursera.</h6>
-            <h6>When I am not coding, I am probably trying out new recipes, reading books or going for gym.</h6>
-            <div class="spaceTop row justify-content-around"> 
+            <h3 id='homeH3'>Hi, I'm Lat Han. Nice to meet you.</h3>
+            <h6 id='homeH6'>I am a Year 3 Computer Engineering undergraduate in Nanyang Tenchnological University (NTU). In my free time, I like to learn more about coding from EDX and Coursera.</h6>
+            <h6 id='homeH6'>When I am not coding, I am probably trying out new recipes, reading books or going for gym.</h6>
+            <div class="spaceTop row justify-content-around">
                 <button type="button" class="btn btn-outline-dark">See my projects</button>
                 <button type="button" class="btn btn-outline-dark">Contact me</button>
             </div>
         </div>
 
         <div id='code' class="col-5">
-            <h1>
+            <h1 id='homeH1'>
                 I ...
                 <a href="" class="typewrite" data-period="2000" data-type='[ " Code"," Sleep"," Repeat" ]'>
                     <span class="wrap"></span>
@@ -49,10 +49,56 @@
         </div>
     </div>
     <div class="d-flex justify-content-center">
-        <a href="#projects">
+        <a href="#downImage">
             <img id='downImage' src="down.jpg">
         </a>
     </div>
+
+    <div id='projects' style="border-style: dotted;">
+        <h3 style="margin-top:2%;text-align: center;">My Projects</h3>
+        <div style="margin-top:2%;display:flex;flex-wrap:wrap">
+            <div class="col-lg-4" style="border-style: dotted;">
+                <h5 style="text-align: center;">Web Development</h5>
+            </div>
+            <div class="col-lg-4" style="border-style: dotted;">
+                <h5 style="text-align: center;">App Development</h5>
+            </div>
+            <div class="col-lg-4" style=" border-style: dotted;">
+                <h5 style="text-align: center;">Progamming Languages</h5>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a href="#contact" style="bottom: 0%;">
+                <img id='downImage' src=" down.jpg ">
+            </a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h2 class="col-3 container" style="margin-top:2%;text-align: center;">Get in Touch!</h2>
+        <div id="contact-form" class="col-4 container">
+            <form action="https://formspree.io/xnqgwkoy" method="POST">
+                <div class="form-group">
+                    <input type="hidden" name="_subject" value="Contact request from personal website" />
+                    <label for="inputEmail">Email</label>
+                    <div>
+                        <input type="email" id="inputEmail" name="_replyto" placeholder="Your email" required style="width: 100%;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputMessage">Message</label>
+                    <div>
+                        <textarea name="message" id="inputMessage" placeholder="Type your message" required style="width: 100%;"></textarea>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; padding-bottom: 10%;">
+                    <button type=" submit ">Send</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
 </body>
 
 </html>
