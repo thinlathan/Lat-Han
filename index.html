@@ -56,22 +56,46 @@
     </div>
 
     <div id='projects'>
-        <h3 style="margin-top:5%;text-align: center;">My Projects</h3>
-        <div style="margin-top:2%;display:flex;flex-wrap:wrap">
-            <div class="col-lg-4" style="border-style: dotted;">
-                <h5 style="text-align: center;">Web Development</h5>
+        <h3 style="margin-top:5%;margin-bottom:5%;text-align: center;">My Projects</h3>
+
+        <div id="flask" class="card mb-3 bg-light col-lg-10 container">
+            <div class="row no-gutters">
+                <div class="col-lg-4" style="padding-top: 1%;">
+                    <img src="images/flask.jpg" class=" card-img">
+                </div>
+                <div class="col-lg-8">
+                    <div class="card-body">
+                        <h4 class="card-title">The Bookworm</h4>
+                        <h5 class="card-subtitle text-muted"> Skills used: Python(Flask), HTML, CSS, Bootstrap, PostgreSQL
+                        </h5>
+                        <p class="card-text" style="margin-top:3%;">This project is a dynamic website made using Python's flask framework. Additionally, PostgreSQL is used to interact with database stored on Heroku. Also, data is retrieved from Goodreads API for updated ratings</p>
+                        <p class="card-text" style="margin-top:2%;">The followings are the features of the webpage:</p>
+                        <ul>
+                            <li style=" margin-top: -2%; ">Creating and Signing in and out of an account</li>
+                            <li>Search for a book using keyword</li>
+                            <li>Read details (fetched from database and API) about the book</li>
+                            <li>Add reviews and rating, and view others' review and rating</li>
+                            <li>API access with /api/ route where the webpage will return a JSON response</li>
+                        </ul>
+                        <div style="display: flex; justify-content: space-evenly; ">
+                            <a href="https://github.com/thinlathan/The-bookworm " target="_blank ">
+                                <button type="button " class="btn btn-outline-secondary ">
+                                    <p class="card-text ">View code 
+                                    <img src="images/github.png " style="height: 30px;"></p>
+                                </button>
+                            </a>
+
+                            <a href="https://www.youtube.com/watch?v=wbqugCffm-E " target="_blank ">
+                                <button type="button " class="btn btn-outline-secondary ">
+                                    <p class="card-text ">View demo 
+                                    <img src="images/youtube.png " style="height: 30px;"></p>
+                                </button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4" style="border-style: dotted;">
-                <h5 style="text-align: center;">App Development</h5>
-            </div>
-            <div class="col-lg-4" style=" border-style: dotted;">
-                <h5 style="text-align: center;">Progamming Languages</h5>
-            </div>
-        </div>
-        <div class="d-flex justify-content-center">
-            <a href="#contact" style="bottom: 0%;">
-                <img id='downImage' src="images/down.jpg ">
-            </a>
         </div>
     </div>
 
@@ -99,9 +123,9 @@
         </div>
     </div>
 
-    <footer style="margin-top: 50px; margin-bottom: 50px; text-align: right;">
-        <a href="http://www.linkedin.com/in/lat-han-thin-50b909136"><img src="images/linkedIn.png" style="height: 40px;"></a>
-        <a href="http://www.linkedin.com/in/lat-han-thin-50b909136"><img src="images/github.png" style="height: 40px;"></a>
+    <footer style="margin-top: 50px; margin-bottom: 50px; text-align: right; ">
+        <a href="http://www.linkedin.com/in/lat-han-thin-50b909136 " target="_blank "><img src=" images/linkedIn.png " style="height: 40px; "></a>
+        <a href="http://www.linkedin.com/in/lat-han-thin-50b909136 " target="_blank "><img src="images/github.png " style="height: 40px; "></a>
     </footer>
 
 </body>
