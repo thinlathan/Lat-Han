@@ -56,16 +56,16 @@
     </div>
 
     <div id='projects'>
-        <h3 style="margin-top:5%;margin-bottom:5%;text-align: center;">My Projects</h3>
+        <h3 style="margin-top:5%;margin-bottom:3%;text-align: center;">My Projects</h3>
 
         <div id="flask" class="card mb-3 bg-light col-lg-10 container">
             <div class="row no-gutters">
-                <div class="col-lg-4" style="padding-top: 1%;">
+                <div class="col-lg-4 " style="padding-top: 7%;">
                     <img src="images/flask.jpg" class=" card-img">
                 </div>
                 <div class="col-lg-8">
                     <div class="card-body">
-                        <h4 class="card-title">The Bookworm</h4>
+                        <h4 class="card-title">Webpage: The Bookworm</h4>
                         <h5 class="card-subtitle text-muted"> Skills used: Python(Flask), HTML, CSS, Bootstrap, PostgreSQL
                         </h5>
                         <p class="card-text" style="margin-top:3%;">This project is a dynamic website made using Python's flask framework. Additionally, PostgreSQL is used to interact with database stored on Heroku. Also, data is retrieved from Goodreads API for updated ratings</p>
@@ -97,26 +97,73 @@
                 </div>
             </div>
         </div>
+
+        <div id="flutter" class="card mb-3 bg-light col-lg-10 container">
+            <div class="row no-gutters">
+                <div class="col-lg-4" style="padding-top: 1%; padding-left: 10%;">
+                    <img src="images/flutter.jpg" class=" card-img" style="width: 190px;" ">
+                </div>
+                <div class="col-lg-8 ">
+                    <div class="card-body ">
+                        <h4 class="card-title ">Mobile Application: Park n Go</h4>
+                        <h5 class="card-subtitle text-muted "> Skills used: Flutter SDK
+                        </h5>
+                        <p class="card-text " style="margin-top:3%; ">This project is a dynamic mobile application made using Flutter software development kit (SDK) so that it can be used on both IOS and Andriod mobile platform. </p>
+                        <p class="card-text " style="margin-top:2%; ">Park n Go is designed to ease drivers' journey planning by providing real-time car park avalibility. Some features are:</p>
+                        <ul>
+                            <li style=" margin-top: -2%; ">Locating the destination
+                                <ul>
+                                    <li>For current location: Located by GPS</li>
+                                    <li>For other location: Searched and located by Google API</li>
+                                </ul>
+                            </li>
+                            <li>See vacancy of each carpark near the destination
+                                <ul>
+                                    <li>The real-time vacany data is provided by goverment API from data.gove.sg</li>
+                                </ul>
+                            </li>
+                            <li>Bookmark frequency used destination</li>
+                        </ul>
+                        <div style="display: flex; justify-content: space-evenly; ">
+                            <a href="https://github.com/thinlathan/CE2006 " target="_blank ">
+                                <button type="button " class="btn btn-outline-secondary ">
+                                    <p class="card-text ">View code 
+                                    <img src="images/github.png " style="height: 30px; "></p>
+                                </button>
+                            </a>
+
+                            <a href="https://www.youtube.com/watch?v=BYekdaRC-G0 " target="_blank ">
+                                <button type="button " class="btn btn-outline-secondary ">
+                                    <p class="card-text ">View demo 
+                                    <img src="images/youtube.png " style="height: 30px; "></p>
+                                </button>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id="contact" style="border-style: solid;">
-        <h2 class="col-3 container" style="margin-top:2%;text-align: center;">Get in Touch!</h2>
-        <div id="contact-form" class="col-4 container">
-            <form action="https://formspree.io/xnqgwkoy" method="POST">
-                <div class="form-group">
-                    <input type="hidden" name="_subject" value="Contact request from personal website" />
-                    <label for="inputEmail">Email</label>
+    <div id="contact " style="border-style: solid; display: block; ">
+        <h2 class="col-3 container " style="margin-top:2%;text-align: center; ">Get in Touch!</h2>
+        <div id="contact-form " class="col-4 container ">
+            <form action="https://formspree.io/xnqgwkoy " method="POST ">
+                <div class="form-group ">
+                    <input type="hidden " name="_subject " value="Contact request from personal website " />
+                    <label for="inputEmail ">Email</label>
                     <div>
-                        <input type="email" id="inputEmail" name="_replyto" placeholder="Your email" required style="width: 100%;">
+                        <input type="email " id="inputEmail " name="_replyto " placeholder="Your email " required style="width: 100%; ">
                     </div>
                 </div>
-                <div class="form-group">
-                    <label for="inputMessage">Message</label>
+                <div class="form-group ">
+                    <label for="inputMessage ">Message</label>
                     <div>
-                        <textarea name="message" id="inputMessage" placeholder="Type your message" required style="width: 100%;"></textarea>
+                        <textarea name="message " id="inputMessage " placeholder="Type your message " required style="width: 100%; "></textarea>
                     </div>
                 </div>
-                <div style="display: flex; justify-content: center; align-items: center; padding-bottom: 10%;">
+                <div style="display: flex; justify-content: center; align-items: center; padding-bottom: 10%; ">
                     <button type=" submit ">Send</button>
                 </div>
             </form>
